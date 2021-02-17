@@ -1,0 +1,36 @@
+#tb{
+            width: 100%;
+            border-bottom: 1px solid #000;
+            border-left: 1px solid #000; 
+        }
+        #tb th{
+            width: 25%;
+            border-top: 1px solid #000;
+            border-right: 1px solid #000;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background: #eee;            
+        }
+        #tb td{
+            border-top: 1px solid #000;
+            border-right: 1px solid #000;
+            text-align: center;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        #myTb th{
+            width: 6%;
+        }
+        #myTb th:first-child{
+            width: 16%;
+        }
+        #myTb td{
+            font-size: 1em;
+            text-align: center;
+        }
+        table a{
+            text-decoration: none;
+        }
+        table a:hover{
+            color: #f00;
+        }
