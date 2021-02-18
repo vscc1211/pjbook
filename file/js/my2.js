@@ -9,7 +9,8 @@
                 document.getElementById('tr85').removeAttribute('class');
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[2].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');    }                 
                 }
                 document.getElementById('tr85').setAttribute('class','dhide');
             }                        
@@ -24,7 +25,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[3].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');       }              
                 }                
             }          
         }
@@ -38,7 +40,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[4].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');           }          
                 }                
             }          
         }
@@ -52,7 +55,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[5].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');          }           
                 }                
             }          
         }
@@ -66,7 +70,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[6].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');           }          
                 }                
             }          
         }
@@ -80,7 +85,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[7].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');             }        
                 }                
             }          
         }
@@ -94,7 +100,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[8].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');       }              
                 }                
             }          
         }
@@ -108,7 +115,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[9].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');        }             
                 }                
             }          
         }
@@ -122,7 +130,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[10].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');          }           
                 }                
             }          
         }
@@ -136,7 +145,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[11].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');           }          
                 }                
             }          
         }
@@ -150,7 +160,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[12].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');           }          
                 }                
             }          
         }
@@ -164,7 +175,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[13].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');             }        
                 }                
             }          
         }
@@ -178,7 +190,8 @@
                 }                 
             }else{
                 for(var i=1;i<=84;i++){
-                    document.getElementById('tr'+i).removeAttribute('class');                     
+                    if(document.getElementById('tr'+i).getElementsByTagName('td')[14].textContent=='X'){
+                    document.getElementById('tr'+i).removeAttribute('class');              }       
                 }                
             }          
         }
