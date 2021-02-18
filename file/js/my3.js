@@ -26,18 +26,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(2)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                        
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
         //鞦韆
@@ -50,18 +38,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(3)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                        
-                            $('#tr'+i).addClass('dhide');
-                    }
-                }
             }
         })
         //翹翹板
