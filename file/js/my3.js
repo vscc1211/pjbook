@@ -50,18 +50,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(4)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){
-                            $('#tr'+i).addClass('dhide');
-                    }
-                }
             }
         })
         //三維攀爬網
@@ -74,18 +62,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(5)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){
-                            $('#tr'+i).addClass('dhide');
-                    }
-                }
             }
         })
         //旋轉木馬
@@ -98,18 +74,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(6)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                       
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
         //滾木
@@ -122,18 +86,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(7)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                       
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
         //軌道車
@@ -146,18 +98,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(8)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                       
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
         //滑桿
@@ -170,18 +110,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(9)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                       
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
         //平衡木
@@ -194,18 +122,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(10)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                       
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
         //彈簧搖動
@@ -218,18 +134,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[10].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(11)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                       
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
         //彈跳設備
@@ -242,18 +146,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[11].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(12)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                       
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
         //上肢運動設備
@@ -266,18 +158,6 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[12].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(13)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                       
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
         //梅花椿
@@ -290,17 +170,5 @@
                         }
                     }                
                 
-            }else{
-                if($('input')[0].checked==true || $('input')[1].checked==true || $('input')[2].checked==true || $('input')[3].checked==true || $('input')[4].checked==true || $('input')[5].checked==true || $('input')[6].checked==true || $('input')[7].checked==true || $('input')[8].checked==true || $('input')[9].checked==true || $('input')[10].checked==true || $('input')[13].checked==true){
-                    for(var i=1;i<=28;i++){
-                        if($('#tr'+i+' td:eq(14)').html()==""){
-                            $('#tr'+i).removeClass('dhide');
-                        }
-                    }
-                }else{
-                    for(var i=1;i<=28;i++){                       
-                            $('#tr'+i).addClass('dhide');                        
-                    }
-                }
             }
         })
